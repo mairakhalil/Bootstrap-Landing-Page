@@ -1,0 +1,108 @@
+body{
+    margin:0;
+    overflow-x: hidden;
+}
+header, footer{
+    background-color:#F4E7D3;
+}
+/* HEADER STYLE */
+header{
+    box-shadow: 0px 0px 22px #8f8d8d;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.navbar{
+    justify-content: space-around;
+}
+header nav a, .nav-link{
+    text-decoration: none;
+    color: #0a0a0a;
+    font-weight: 500;
+    padding: 15px 25px;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.form-div{
+    display: flex;
+    align-items: center;
+}
+.form-div input{
+    background: none;
+    padding: 0px;
+    width: 200px;
+    height: 42px;
+    border: 0;
+    outline: none;
+}
+.form-div form{
+    /* border: 1px solid #C2B6BB; */
+    padding: 0 10px;
+    border-radius: 5px;
+}
+.fa-shopping-bag{
+    font-size: large;
+}
+header a:hover, .fa-search:hover, .nav-link:hover{
+    color:#929292
+}
+#homeSection{
+    background-image: url('../assets/images/bgIMG.jpg');
+    background-size: cover;
+}
+p{
+    color: #7F85A8;
+}
+
+/* HOMESECTION STYLE */
+#homeSection .saleDiv{
+    padding:30px;
+    margin:70px 0px 70px 0px;
+}
+
+#homeSection .saleDiv h6{
+    color: #7F85A8;
+}
+#homeSection h2
+{
+    margin-bottom: 14px;
+    line-height: 1.2;
+}
+.discoverBtn{
+    background: #FD8F5F;
+    padding: 10px 20px;
+ 
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid #F4E7D3;;
+}
+.discoverBtn:hover{
+    background: #fabba0;
+}
+.imgSofa2 img{
+    width: -webkit-fill-available;
+}
+.card{
+    box-shadow: 0px 0px 7px #bbbd;
+}
+
+/* ABOUT STYLE */
+#aboutSection img{
+    box-shadow: 0px 0px 7px #bbbd;
+    border: 1px solid #F4E7D3;
+    border-radius: 5px;
+}
+#contactSection form input, textarea{
+width: -webkit-fill-available;
+}
+#contactSection form input{
+    padding: 13px;
+    outline: none;
+}
+
+/* CONTACT US STYLE */
+#contactSection .rightdiv{
+    background-image: url('../assets/images/contactBG.jpg');
+}
